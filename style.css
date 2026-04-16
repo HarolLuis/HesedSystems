@@ -576,11 +576,19 @@ footer {
 .footer-social {
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 
 .footer-social a {
     color: var(--text-muted);
     transition: var(--transition);
+    display: inline-flex;
+}
+
+.footer-social a svg {
+    width: 32px;
+    height: 32px;
+    stroke-width: 2;
 }
 
 .footer-social a:hover {

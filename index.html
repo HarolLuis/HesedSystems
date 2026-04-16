@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HesedSystems | Soluciones Digitales Integrales</title>
+    <meta name="description"
+        content="HesedSystems: Expertos en desarrollo de software a medida, páginas web, consultoría tecnológica y gestión de bases de datos.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <img src="Logo_HesedSystems_sinFondo.png" alt="HesedSystems Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Sobre Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#mision-vision">Misión/Visión</a></li>
+                <li><a href="#contacto" class="btn btn-primary">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section / Slideshow -->
+    <section id="inicio" class="hero">
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="assets/software_dev.png" alt="Software Development">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <span class="subheadline animate-up">IMPULSANDO NEGOCIOS CON TECNOLOGÍA DE CONFIANZA</span>
+                    <h1>Soluciones Tecnológicas que Transforman tu Empresa</h1>
+                    <p>En HesedSystems diseñamos, desarrollamos e implementamos soluciones digitales integrales que
+                        impulsan el crecimiento y la eficiencia de tu negocio.</p>
+                    <div class="hero-btns animate-up">
+                        <a href="#contacto" class="btn btn-primary">Empieza Hoy</a>
+                        <a href="#servicios" class="btn btn-secondary">Explorar Servicios</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/web_dev.png" alt="Web Development">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <span class="subheadline animate-up">PRESENCIA DIGITAL DE ALTO IMPACTO</span>
+                    <h1>Diseño Web Moderno y Orientado a Resultados</h1>
+                    <p>Creamos experiencias digitales memorables con un enfoque en la conversión, velocidad y diseño
+                        premium.</p>
+                    <div class="hero-btns animate-up">
+                        <a href="#servicios" class="btn btn-primary">Ver Portafolio</a>
+                        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="assets/support.png" alt="Tech Support">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <span class="subheadline animate-up">CONTINUIDAD Y ESTRATEGIA IT</span>
+                    <h1>Soporte Experto y Consultoría Digital</h1>
+                    <p>Optimiza tu infraestructura tecnológica con nuestro respaldo técnico y consultoría estratégica de
+                        vanguardia.</p>
+                    <div class="hero-btns animate-up">
+                        <a href="#contacto" class="btn btn-primary">Solicitar Consultoría</a>
+                        <a href="#nosotros" class="btn btn-secondary">Conócenos</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slideshow Controls -->
+            <button class="prev" onclick="plusSlides(-1)"><i data-lucide="chevron-left"></i></button>
+            <button class="next" onclick="plusSlides(1)"><i data-lucide="chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="section about">
+        <div class="container section-grid">
+            <div class="about-text animate-on-scroll">
+                <span class="section-tag">Sobre Nosotros</span>
+                <h2>HesedSystems — Tu Socio en Transformación Digital</h2>
+                <p>En <strong>HesedSystems</strong>, el nombre "Hesed" refleja nuestro compromiso con la lealtad, la
+                    integridad y la excelencia. Nos vemos como una extensión de tu equipo, trabajando codo a codo para
+                    superar tus metas tecnológicas.</p>
+                <p>Nuestra historia está marcada por la pasión por resolver desafíos complejos mediante el ingenio
+                    digital y una comunicación transparente.</p>
+                <div class="differentiators">
+                    <div class="diff-item">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>Comunicación Transparente</span>
+                    </div>
+                    <div class="diff-item">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>Enfoque en Resultados Reales</span>
+                    </div>
+                    <div class="diff-item">
+                        <i data-lucide="check-circle-2"></i>
+                        <span>Innovación Continua</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image animate-on-scroll">
+                <div class="info-card">
+                    <h3>¿Por qué elegir HesedSystems?</h3>
+                    <p>Combinamos experiencia técnica profunda con una visión estratégica de negocios para ofrecer
+                        soluciones que no solo funcionan, sino que transforman.</p>
+                    <ul class="benefit-list">
+                        <li><i data-lucide="shield-check"></i> Seguridad de Nivel Empresarial</li>
+                        <li><i data-lucide="zap"></i> Entregas Ágiles y Eficientes</li>
+                        <li><i data-lucide="headphones"></i> Soporte 24/7 Especializado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="section services bg-alt">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Nuestros Servicios</span>
+                <h2>Soluciones Digitales Integrales</h2>
+                <p class="section-desc">Cubrimos todo el ciclo de vida tecnológico de tu empresa con servicios
+                    especializados.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i data-lucide="binary"></i></div>
+                    <h3>Desarrollo de Software</h3>
+                    <p>Sistemas personalizados escalables diseñados para automatizar y optimizar tus procesos
+                        operativos.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i data-lucide="mouse-pointer-2"></i></div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Plataformas web de alto impacto con diseño UX/UI avanzado y optimización SEO integral.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i data-lucide="settings-2"></i></div>
+                    <h3>Soporte y Mantenimiento</h3>
+                    <p>Mantenimiento proactivo y reactivo para asegurar que tus sistemas nunca se detengan.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i data-lucide="bar-chart-3"></i></div>
+                    <h3>Consultoría Tecnológica</h3>
+                    <p>Estrategia digital personalizada para alinear tus recursos tecnológicos con tus metas de negocio.
+                    </p>
+                </div>
+                <!-- Service 5 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i data-lucide="server"></i></div>
+                    <h3>Gestión de Bases de Datos</h3>
+                    <p>Arquitectura, seguridad y administración eficiente de tus datos críticos.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon"><i data-lucide="globe"></i></div>
+                    <h3>Soluciones Digitales</h3>
+                    <p>Integración de ecosistemas digitales completos para una ventaja competitiva sostenible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section id="mision-vision" class="section mission-vision">
+        <div class="container mission-vision-grid">
+            <div class="mission-card animate-on-scroll">
+                <div class="card-icon"><i data-lucide="mountain"></i></div>
+                <h2>Nuestra Misión</h2>
+                <p>Proveer soluciones tecnológicas innovadoras y confiables que generen valor real y tangible para
+                    nuestros clientes, simplificando lo complejo.</p>
+            </div>
+            <div class="vision-card animate-on-scroll">
+                <div class="card-icon"><i data-lucide="trending-up"></i></div>
+                <h2>Nuestra Visión</h2>
+                <p>Ser el referente líder en transformación digital y servicios IT, reconocidos por nuestra excelencia
+                    técnica y compromiso humano.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section values">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Cultura Hesed</span>
+                <h2>Valores que nos impulsan</h2>
+            </div>
+            <div class="values-grid">
+                <div class="value-item">
+                    <i data-lucide="lightbulb"></i>
+                    <h4>Innovación</h4>
+                </div>
+                <div class="value-item">
+                    <i data-lucide="shield"></i>
+                    <h4>Responsabilidad</h4>
+                </div>
+                <div class="value-item">
+                    <i data-lucide="check-square"></i>
+                    <h4>Calidad</h4>
+                </div>
+                <div class="value-item">
+                    <i data-lucide="heart"></i>
+                    <h4>Compromiso</h4>
+                </div>
+                <div class="value-item">
+                    <i data-lucide="lock"></i>
+                    <h4>Seguridad</h4>
+                </div>
+                <div class="value-item">
+                    <i data-lucide="user-check"></i>
+                    <h4>Orientación al Cliente</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section contact">
+        <div class="container contact-wrapper animate-on-scroll">
+            <div class="contact-info">
+                <span class="section-tag">Contacto</span>
+                <h2>¿Hablamos de tu próximo proyecto?</h2>
+                <p>Nuestro equipo está listo para asesorarte. Contáctanos por el medio de tu preferencia.</p>
+                <div class="info-items">
+                    <div class="info-item">
+                        <i data-lucide="mail"></i>
+                        <span>hesedsystems07@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="phone"></i>
+                        <span>809 981 9826</span>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="instagram"></i>
+                        <span>@hesedsystems</span>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="smartphone"></i>
+                        <span>TikTok: @hesedsystems</span>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <div class="glass-card form-card">
+                    <h3>Solicita una Cotización</h3>
+                    <form>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="email" placeholder="Correo electrónico" required>
+                        <textarea placeholder="Cuéntanos sobre tu proyecto" rows="4"></textarea>
+                        <button type="submit" class="btn btn-primary w-100">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <img src="Logo_HesedSystems.png" alt="HesedSystems" class="footer-logo">
+                <p>&copy; 2026 HesedSystems. Soluciones Tecnológicas de Confianza.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i data-lucide="linkedin"></i></a>
+                <a href="#"><i data-lucide="twitter"></i></a>
+                <a href="#"><i data-lucide="facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
